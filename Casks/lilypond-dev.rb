@@ -1,8 +1,8 @@
 cask "lilypond-dev" do
-  version "2.23.6-1"
+  version "2.23.8-1"
   sha256 "69684c8d000046dc5fe19938ced8bbbb0bdea2775f3b5cb3747194505afbc8ea"
 
-  url "https://lilypond.org/downloads/binaries/darwin-x86/lilypond-#{version}.darwin-x86.tar.bz2"
+  url "https://gitlab.com/lilypond/lilypond/-/releases/#{version}/downloads/lilypond-#{version}-darwin-x86_64.tar.gz"
   name "LilyPond"
   desc "Music engraving program"
   homepage "https://lilypond.org/"
